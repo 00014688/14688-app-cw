@@ -1,0 +1,19 @@
+extends layout.pug
+
+block content
+  div.container 
+    h1 All notes 
+
+    each note in notes 
+      div.note-wrapper 
+        a.note(href=`/notes/${ note.id }`) #{ note.title }
+        div.manage 
+          a.archive(href=`/notes/${ note.id }/archive`) Archive
+          a.update(href=`/notes/${ note.id }/update`) Update
+          a.delete(href=`/notes/${ note.id }/delete`) Delete
+          
+       
+
+        
+        
+        

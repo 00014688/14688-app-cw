@@ -1,0 +1,10 @@
+extends layout.pug
+
+block content
+  div.container 
+    h1 All archives 
+
+    each note in notes 
+      div.note-wrapper 
+        a.note(href=`/notes/${ note.id }`) #{ note.title }
+        a.unarchive(href=`/notes/${ note.id }/unarchive`) Unarchive

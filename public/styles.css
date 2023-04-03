@@ -1,0 +1,229 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container p {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+a:hover {
+    color: rgb(189, 25, 25);
+}
+ .navbar {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 4px solid #000000;
+    padding: 15px;
+ }
+
+ .nav a{
+   color: rgb(0, 0, 0);
+   font-size: 26px;
+   padding-right: 100px;
+ }
+
+
+  .nav a:hover {
+    color: rgb(189, 25, 25);
+}
+
+
+
+.container {
+    min-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.intro-msg {
+padding: 100px 0 30px 0 ;
+font-size: 2rem;
+max-width: 60%;
+}
+
+.featured {
+    background-color: #289f2e;
+    border: none;
+    color: whitesmoke;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 3px;
+    display: block;
+}
+.navbar h1 {
+    color: rgb(33, 4, 224);
+}
+
+
+/* create page */
+.form {
+max-width: 75%;
+}
+
+label {
+    font-size: 2rem;
+}
+
+.input {
+width: 100%;
+display: block;
+padding: 10px;
+font-size: 1.4rem;
+font-family: 'Courier New', Courier, monospace;
+border:1px solid black;
+margin-bottom: 25px;
+
+}
+
+.btn {
+    background-color: #289f2e;
+    border: none;
+    color: whitesmoke;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 3px;
+    display: block;
+}
+
+/*notes page style*/
+.note-wrapper {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    padding: 12px;
+    align-items: center;
+    border: 3px dotted rgb(12, 96, 126);
+    background-color: rgba(118, 99, 113, 0.104);
+}
+
+.note {
+font-size: 1.5rem;
+}
+
+.delete {
+    background-color: #a80d0d;
+    border: none;
+    color: whitesmoke;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 3px;
+    display: block;
+}
+
+.archive {
+    background-color: #942390;
+    border: none;
+    color: whitesmoke;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+a.unarchive {
+    background-color: #bc4a20;
+    border: none;
+    color: whitesmoke;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+a.unarchive:hover {
+    color: #5720bc;
+}
+
+.update {
+    background-color: #0d24a8;
+    border: none;
+    color: whitesmoke;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 3px;
+} 
+
+
+
+.note-wrapper {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #4c4949;
+}
+.delete:hover {
+    color: rgb(18, 29, 238);
+}
+
+.error {
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid rgb(214, 15, 15);
+    font-size: 1.3rem;
+    color: rgb(214, 15, 15);
+}
+
+
+.success {
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid rgb(9, 190, 67);
+    font-size: 1.3rem;
+    color:  rgb(9, 190, 67);
+}
+
+.container .intro-msg {
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    font-size: 1.8rem;
+    font-size: 450%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.container h1 {
+    color: #000000;
+    text-align: center;
+    font-weight: 200;
+    font-size: 4.2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
